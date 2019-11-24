@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="action" table="x_277835_textlocal_textlocal_sms" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>action</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Inbox</label>
+            <language>en</language>
+            <name>x_277835_textlocal_textlocal_sms</name>
+            <sequence/>
+            <sys_created_by>abhrajyoti.kanrar</sys_created_by>
+            <sys_created_on>2019-11-18 12:33:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ca2823fbdb0dc0d058537de03c961948</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>abhrajyoti.kanrar</sys_updated_by>
+            <sys_updated_on>2019-11-18 12:33:14</sys_updated_on>
+            <value>inbox</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>action</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Outbox</label>
+            <language>en</language>
+            <name>x_277835_textlocal_textlocal_sms</name>
+            <sequence/>
+            <sys_created_by>abhrajyoti.kanrar</sys_created_by>
+            <sys_created_on>2019-11-18 12:33:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>01582f7bdb0dc0d058537de03c961979</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>abhrajyoti.kanrar</sys_updated_by>
+            <sys_updated_on>2019-11-18 12:33:31</sys_updated_on>
+            <value>outbox</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>action</element>
+            <name>x_277835_textlocal_textlocal_sms</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>abhrajyoti.kanrar</sys_created_by>
+            <sys_created_on>2019-11-18 12:33:14</sys_created_on>
+            <sys_id>f0482fbbdb0dc0d058537de03c9619bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>action</sys_name>
+            <sys_package display_value="TextLocal" source="x_277835_textlocal">c8bcdf7bdbc9c0d058537de03c9619bb</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="TextLocal">c8bcdf7bdbc9c0d058537de03c9619bb</sys_scope>
+            <sys_update_name>sys_choice_x_277835_textlocal_textlocal_sms_action</sys_update_name>
+            <sys_updated_by>abhrajyoti.kanrar</sys_updated_by>
+            <sys_updated_on>2019-11-18 12:33:14</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

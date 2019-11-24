@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="requested_user" label="Requested User" language="en" table="x_277835_textlocal_sms_transactions">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>requested_user</element>
+            <help/>
+            <hint/>
+            <label>Requested User</label>
+            <language>en</language>
+            <name>x_277835_textlocal_sms_transactions</name>
+            <plural>Requested Users</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>abhrajyoti.kanrar</sys_created_by>
+            <sys_created_on>2019-11-18 13:23:21</sys_created_on>
+            <sys_id>36b3777bdb4dc0d058537de03c961911</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Requested User</sys_name>
+            <sys_package display_value="TextLocal" source="x_277835_textlocal">c8bcdf7bdbc9c0d058537de03c9619bb</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="TextLocal">c8bcdf7bdbc9c0d058537de03c9619bb</sys_scope>
+            <sys_update_name>sys_documentation_x_277835_textlocal_sms_transactions_requested_user_en</sys_update_name>
+            <sys_updated_by>abhrajyoti.kanrar</sys_updated_by>
+            <sys_updated_on>2019-11-18 13:23:21</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

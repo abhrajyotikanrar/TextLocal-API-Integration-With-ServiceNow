@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="TextLocal">fddf27b3db4dc0d058537de03c961924</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter table="x_277835_textlocal_textlocal_sms">action=outbox^EQ<item display_value="Outbox" endquery="false" field="action" goto="false" newquery="false" operator="=" or="false" value="outbox"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Sent SMS</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_277835_textlocal_textlocal_sms</name>
+        <order>100</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>abhrajyoti.kanrar</sys_created_by>
+        <sys_created_on>2019-11-18 13:08:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8800bf37db4dc0d058537de03c9619a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sent SMS</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="TextLocal" source="x_277835_textlocal">c8bcdf7bdbc9c0d058537de03c9619bb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TextLocal">c8bcdf7bdbc9c0d058537de03c9619bb</sys_scope>
+        <sys_update_name>sys_app_module_8800bf37db4dc0d058537de03c9619a2</sys_update_name>
+        <sys_updated_by>abhrajyoti.kanrar</sys_updated_by>
+        <sys_updated_on>2019-11-18 13:08:40</sys_updated_on>
+        <timeline_page/>
+        <title>Sent SMS</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

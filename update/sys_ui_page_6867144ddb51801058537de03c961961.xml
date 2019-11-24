@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script><![CDATA[var data = '$[jvar_chartData]';
+data = JSON.parse(data);
+
+getBlockedUnblockedChart(data);
+getSuccessFailureChart(data);
+		
+function getBlockedUnblockedChart(data){
+	var canvasId = 'chartBlockedUnblocked';
+	var labelsArray = ['Blocked SMS', 'Unblocked SMS'];
+	var dataArray = [Number(data.blockedUnblockedCount.blockedCount), Number(data.blockedUnblockedCount.unblockedCount)];
+	var backgroundColorArray = ['#4d7d55','#663069'];
+	var chartType = 'pie';      //pie, doughnut, bar, line
+			
+	drawChart(canvasId, labelsArray, dataArray, backgroundColorArray, chartType);
+}
+		
+function getSuccessFailureChart(data){
+	var canvasId = 'chartSuccessFailure';
+	var labelsArray = ['Success', 'Failure'];
+	var dataArray = [Number(data.successFailureCount.successCount), Number(data.successFailureCount.failureCount)];
+	var backgroundColorArray = ['#4d7d55','#663069'];
+	var chartType = 'pie';      //pie, doughnut, bar, line
+			
+	drawChart(canvasId, labelsArray, dataArray, backgroundColorArray, chartType);
+}
+		
+function drawChart(canvasId, labelsArray, dataArray, backgroundColorArray, chartType){
+	var ctx = document.getElementById(canvasId).getContext('2d');
+	var myChart = new Chart(ctx, {
+		type: chartType,
+		data: {
+			labels: labelsArray,
+			datasets: [{
+				label: '',
+				data: dataArray,
+				backgroundColor: backgroundColorArray
+			}]
+		},
+		options: {
+			legend: {
+				display: true,
+				position: 'right'
+			},
+			responsive: false
+		}
+	});
+}]]></client_script>
+        <description>Library for Charts: Chart JS (https://www.chartjs.org/docs/latest/)</description>
+        <direct>false</direct>
+        <endpoint>x_277835_textlocal_api_dashboard.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<link href="4ba08cd9dbd1c01058537de03c96193a.cssdbx" rel="stylesheet" type="text/css"></link>
+	<script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+	<g2:evaluate var="jvar_smsBalance" jelly="true">
+		var balance;
+		var getSmsBalance = new x_277835_textlocal.TextLocalAPI().getSmsBalance();
+		if(typeof getSmsBalance == 'number')
+			balance = getSmsBalance;
+		else
+			balance = 'Not Available';
+		
+		balance;
+	</g2:evaluate>
+	<g2:evaluate var="jvar_sentSmsCount" jelly="true">
+		var getOutboxSmsCount = new x_277835_textlocal.TextLocalAPI().getLastThirtyDaysOutboxSmsCount();
+		
+		getOutboxSmsCount;
+	</g2:evaluate>
+	<g2:evaluate var="jvar_chartData" jelly="true">
+		var getCount = new x_277835_textlocal.TextLocalAPI().get30DaysChartData();
+		
+		getCount;
+	</g2:evaluate>
+	
+	
+	<div class="dataContainer">
+		<div>
+			<p class="title">TextLocal API Dashboard</p>
+		</div>
+		<div class="dataRow">
+			<table align="center" style="width:100%">
+				<tr>
+					<td width="50%">
+						<div class="dataBox">
+							<p class="dataTitle">SMS Balance Available</p>
+							<p class="data">$[jvar_smsBalance]</p>
+						</div>
+					</td>
+					<td width="50%">
+						<div class="dataBox">
+							<p class="dataTitle">SMS Sent in Last 30 Days</p>
+							<p class="data">$[jvar_sentSmsCount]</p>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="dataRow">
+			<table align="center" style="width:100%">
+				<tr>
+					<td width="50%">
+						<div class="dataBox">
+							<p class="dataTitle">SMS Count in Last 30 Days (Blocked / Unblocked)</p>
+							<center>
+								<canvas id="chartBlockedUnblocked" class="smallChartCanvas" width="500"></canvas>
+							</center>
+						</div>
+					</td>
+					<td width="50%">
+						<div class="dataBox">
+							<p class="dataTitle">Unblocked SMS Count in Last 30 Days (Success / Failure)</p>
+							<center>
+								<canvas id="chartSuccessFailure" class="smallChartCanvas" width="500"></canvas>
+							</center>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</j:jelly>]]></html>
+        <name>api_dashboard</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>abhrajyoti.kanrar</sys_created_by>
+        <sys_created_on>2019-11-21 18:34:23</sys_created_on>
+        <sys_id>6867144ddb51801058537de03c961961</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>api_dashboard</sys_name>
+        <sys_package display_value="TextLocal" source="x_277835_textlocal">c8bcdf7bdbc9c0d058537de03c9619bb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TextLocal">c8bcdf7bdbc9c0d058537de03c9619bb</sys_scope>
+        <sys_update_name>sys_ui_page_6867144ddb51801058537de03c961961</sys_update_name>
+        <sys_updated_by>abhrajyoti.kanrar</sys_updated_by>
+        <sys_updated_on>2019-11-22 14:40:29</sys_updated_on>
+    </sys_ui_page>
+</record_update>

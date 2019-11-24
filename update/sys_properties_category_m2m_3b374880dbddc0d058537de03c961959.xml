@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m">
+    <sys_properties_category_m2m action="INSERT_OR_UPDATE">
+        <category display_value="TextLocal Properties">f1070480dbddc0d058537de03c9619fa</category>
+        <order>100</order>
+        <property display_value="x_277835_textlocal.api.key" name="x_277835_textlocal.api.key">1fdd5fbfdb85c0d058537de03c9619de</property>
+        <sys_class_name>sys_properties_category_m2m</sys_class_name>
+        <sys_created_by>abhrajyoti.kanrar</sys_created_by>
+        <sys_created_on>2019-11-18 14:48:36</sys_created_on>
+        <sys_id>3b374880dbddc0d058537de03c961959</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_277835_textlocal.api.key.Properties</sys_name>
+        <sys_package display_value="TextLocal" source="x_277835_textlocal">c8bcdf7bdbc9c0d058537de03c9619bb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TextLocal">c8bcdf7bdbc9c0d058537de03c9619bb</sys_scope>
+        <sys_update_name>sys_properties_category_m2m_3b374880dbddc0d058537de03c961959</sys_update_name>
+        <sys_updated_by>abhrajyoti.kanrar</sys_updated_by>
+        <sys_updated_on>2019-11-18 14:48:36</sys_updated_on>
+    </sys_properties_category_m2m>
+</record_update>

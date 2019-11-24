@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="INSERT_OR_UPDATE">
+        <authentication_type>inherit_from_parent</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <content/>
+        <function_name>Send SMS - POST</function_name>
+        <http_method>post</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>TextLocal API [ Send SMS - POST ]</qualified_name>
+        <rest_endpoint>https://api.textlocal.in/send/</rest_endpoint>
+        <rest_message display_value="TextLocal API">412edb3fdbc9c0d058537de03c96192c</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>abhrajyoti.kanrar</sys_created_by>
+        <sys_created_on>2019-11-18 11:55:08</sys_created_on>
+        <sys_id>400f133fdbc9c0d058537de03c961968</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Send SMS - POST</sys_name>
+        <sys_package display_value="TextLocal" source="x_277835_textlocal">c8bcdf7bdbc9c0d058537de03c9619bb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TextLocal">c8bcdf7bdbc9c0d058537de03c9619bb</sys_scope>
+        <sys_update_name>sys_rest_message_fn_400f133fdbc9c0d058537de03c961968</sys_update_name>
+        <sys_updated_by>abhrajyoti.kanrar</sys_updated_by>
+        <sys_updated_on>2019-11-18 11:55:08</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+</record_update>

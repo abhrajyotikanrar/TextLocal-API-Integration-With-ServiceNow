@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_param_defs">
+    <sys_rest_message_fn_param_defs action="INSERT_OR_UPDATE">
+        <name>message</name>
+        <order>100</order>
+        <rest_message_function display_value="Send SMS - GET">d39fd33fdbc9c0d058537de03c96193d</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_param_defs</sys_class_name>
+        <sys_created_by>abhrajyoti.kanrar</sys_created_by>
+        <sys_created_on>2019-11-21 20:29:19</sys_created_on>
+        <sys_id>08c17881db15801058537de03c961919</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>message</sys_name>
+        <sys_package display_value="TextLocal" source="x_277835_textlocal">c8bcdf7bdbc9c0d058537de03c9619bb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TextLocal">c8bcdf7bdbc9c0d058537de03c9619bb</sys_scope>
+        <sys_update_name>sys_rest_message_fn_param_defs_08c17881db15801058537de03c961919</sys_update_name>
+        <sys_updated_by>abhrajyoti.kanrar</sys_updated_by>
+        <sys_updated_on>2019-11-21 20:29:19</sys_updated_on>
+        <value>${message}</value>
+    </sys_rest_message_fn_param_defs>
+</record_update>

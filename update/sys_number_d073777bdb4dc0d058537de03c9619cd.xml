@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_277835_textlocal_sms_transactions">x_277835_textlocal_sms_transactions</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>SMS</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>abhrajyoti.kanrar</sys_created_by>
+        <sys_created_on>2019-11-18 13:22:04</sys_created_on>
+        <sys_id>d073777bdb4dc0d058537de03c9619cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SMS</sys_name>
+        <sys_package display_value="TextLocal" source="x_277835_textlocal">c8bcdf7bdbc9c0d058537de03c9619bb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TextLocal">c8bcdf7bdbc9c0d058537de03c9619bb</sys_scope>
+        <sys_update_name>sys_number_d073777bdb4dc0d058537de03c9619cd</sys_update_name>
+        <sys_updated_by>abhrajyoti.kanrar</sys_updated_by>
+        <sys_updated_on>2019-11-18 13:22:04</sys_updated_on>
+    </sys_number>
+</record_update>

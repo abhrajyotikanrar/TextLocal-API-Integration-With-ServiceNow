@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="SMS Transactions" max_length="40" name="x_277835_textlocal_sms_transactions" type="collection">
+        <element label="Blocked" max_length="40" name="blocked" type="boolean"/>
+        <element label="Message" max_length="500" name="message" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Recipient Numbers" max_length="1500" name="recipient_numbers" type="string"/>
+        <element label="Requested User" max_length="32" name="requested_user" reference="sys_user" type="reference"/>
+        <element label="Response" max_length="50000" name="response" type="string"/>
+        <element label="Sender Name" max_length="10" name="sender_name" type="string"/>
+        <element label="Sent SMS" max_length="32" name="sent_sms" reference="x_277835_textlocal_textlocal_sms" type="reference"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Failure" value="failure"/>
+                <element inactive_on_update="false" label="Success" value="success"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="sent_sms"/>
+        </index>
+        <index name="index2">
+            <element name="requested_user"/>
+        </index>
+    </element>
+</database>
