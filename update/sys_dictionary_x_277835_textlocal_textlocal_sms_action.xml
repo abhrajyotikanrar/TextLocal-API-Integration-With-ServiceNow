@@ -53,7 +53,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>abhrajyoti.kanrar</sys_created_by>
         <sys_created_on>2019-11-18 12:32:38</sys_created_on>
-        <sys_id>8708ebb7db0dc0d058537de03c96191d</sys_id>
+        <sys_id>38658ebddbd1841058537de03c96196e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Action</sys_name>
         <sys_package display_value="TextLocal" source="x_277835_textlocal">c8bcdf7bdbc9c0d058537de03c9619bb</sys_package>
@@ -61,7 +61,7 @@
         <sys_scope display_value="TextLocal">c8bcdf7bdbc9c0d058537de03c9619bb</sys_scope>
         <sys_update_name>sys_dictionary_x_277835_textlocal_textlocal_sms_action</sys_update_name>
         <sys_updated_by>abhrajyoti.kanrar</sys_updated_by>
-        <sys_updated_on>2019-11-18 12:32:38</sys_updated_on>
+        <sys_updated_on>2019-11-24 10:29:08</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

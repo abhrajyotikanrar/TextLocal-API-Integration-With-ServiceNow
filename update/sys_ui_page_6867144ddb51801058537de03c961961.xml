@@ -78,8 +78,9 @@ function drawChart(canvasId, labelsArray, dataArray, backgroundColorArray, chart
 	
 	
 	<div class="dataContainer">
-		<div>
-			<p class="title">TextLocal API Dashboard</p>
+		<div class="dataRow">
+			<div onclick='window.location.reload();' class="btnRefresh">Refresh Page</div>
+			<div class="title">TextLocal API Dashboard</div>
 		</div>
 		<div class="dataRow">
 			<table align="center" style="width:100%">
@@ -129,13 +130,13 @@ function drawChart(canvasId, labelsArray, dataArray, backgroundColorArray, chart
         <sys_created_by>abhrajyoti.kanrar</sys_created_by>
         <sys_created_on>2019-11-21 18:34:23</sys_created_on>
         <sys_id>6867144ddb51801058537de03c961961</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>api_dashboard</sys_name>
         <sys_package display_value="TextLocal" source="x_277835_textlocal">c8bcdf7bdbc9c0d058537de03c9619bb</sys_package>
         <sys_policy/>
         <sys_scope display_value="TextLocal">c8bcdf7bdbc9c0d058537de03c9619bb</sys_scope>
         <sys_update_name>sys_ui_page_6867144ddb51801058537de03c961961</sys_update_name>
         <sys_updated_by>abhrajyoti.kanrar</sys_updated_by>
-        <sys_updated_on>2019-11-22 14:40:29</sys_updated_on>
+        <sys_updated_on>2019-11-25 09:23:33</sys_updated_on>
     </sys_ui_page>
 </record_update>

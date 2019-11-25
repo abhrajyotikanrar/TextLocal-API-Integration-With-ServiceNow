@@ -1,58 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_choice action="INSERT_OR_UPDATE" field="action" table="x_277835_textlocal_textlocal_sms" version="3">
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>action</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Inbox</label>
-            <language>en</language>
-            <name>x_277835_textlocal_textlocal_sms</name>
-            <sequence/>
-            <sys_created_by>abhrajyoti.kanrar</sys_created_by>
-            <sys_created_on>2019-11-18 12:33:14</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>ca2823fbdb0dc0d058537de03c961948</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>abhrajyoti.kanrar</sys_updated_by>
-            <sys_updated_on>2019-11-18 12:33:14</sys_updated_on>
-            <value>inbox</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>action</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Outbox</label>
-            <language>en</language>
-            <name>x_277835_textlocal_textlocal_sms</name>
-            <sequence/>
-            <sys_created_by>abhrajyoti.kanrar</sys_created_by>
-            <sys_created_on>2019-11-18 12:33:31</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>01582f7bdb0dc0d058537de03c961979</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>abhrajyoti.kanrar</sys_updated_by>
-            <sys_updated_on>2019-11-18 12:33:31</sys_updated_on>
-            <value>outbox</value>
-        </sys_choice>
-        <sys_choice_set action="INSERT_OR_UPDATE">
+    <sys_choice action="DELETE" field="action" table="x_277835_textlocal_textlocal_sms" version="3">
+        <sys_choice_set action="DELETE">
             <element>action</element>
             <name>x_277835_textlocal_textlocal_sms</name>
-            <sys_class_name>sys_choice_set</sys_class_name>
-            <sys_created_by>abhrajyoti.kanrar</sys_created_by>
-            <sys_created_on>2019-11-18 12:33:14</sys_created_on>
-            <sys_id>f0482fbbdb0dc0d058537de03c9619bf</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>action</sys_name>
-            <sys_package display_value="TextLocal" source="x_277835_textlocal">c8bcdf7bdbc9c0d058537de03c9619bb</sys_package>
+            <sys_class_name/>
+            <sys_created_by/>
+            <sys_created_on/>
+            <sys_id/>
+            <sys_mod_count/>
+            <sys_name/>
+            <sys_package/>
             <sys_policy/>
-            <sys_scope display_value="TextLocal">c8bcdf7bdbc9c0d058537de03c9619bb</sys_scope>
-            <sys_update_name>sys_choice_x_277835_textlocal_textlocal_sms_action</sys_update_name>
-            <sys_updated_by>abhrajyoti.kanrar</sys_updated_by>
-            <sys_updated_on>2019-11-18 12:33:14</sys_updated_on>
+            <sys_scope/>
+            <sys_update_name/>
+            <sys_updated_by/>
+            <sys_updated_on>2019-11-24 10:28:46</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application/>
+        <file_path/>
+        <instance_id>d2a9b93ddb441b802ffa7236bf9619b4</instance_id>
+        <instance_name>dev49027</instance_name>
+        <name>sys_choice_x_277835_textlocal_textlocal_sms_action</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="DELETE" field="action" table="x_277835_textlocal_textlocal_sms" version="3"><sys_choice_set action="DELETE"><element>action</element><name>x_277835_textlocal_textlocal_sms</name><sys_class_name/><sys_created_by/><sys_created_on/><sys_id/><sys_mod_count/><sys_name/><sys_package/><sys_policy/><sys_scope/><sys_update_name/><sys_updated_by/><sys_updated_on>2019-11-24 10:28:46</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>-35409776</payload_hash>
+        <record_name>x_277835_textlocal_textlocal_sms.action</record_name>
+        <reverted_from/>
+        <source>a245c6bddbd1841058537de03c9619f6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>abhrajyoti.kanrar</sys_created_by>
+        <sys_created_on>2019-11-24 10:28:46</sys_created_on>
+        <sys_id>84558abddbd1841058537de03c961956</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16e9cf4e9170000001</sys_recorded_at>
+        <sys_updated_by>abhrajyoti.kanrar</sys_updated_by>
+        <sys_updated_on>2019-11-24 10:28:46</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>cc558abde8d1841007d1a24bf79ae055</update_guid>
+        <update_guid_history>cc558abde8d1841007d1a24bf79ae055:-35409776,c8558abdbdd18410163788aba683ee52:-266953405,4d58e3fb3c0dc0d0e624b220779c40cc:1232026919,3c48a3fbe20dc0d0315757e9bd3c3b4a:-241445845</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>abhrajyoti.kanrar</sys_created_by>
+        <sys_created_on>2019-11-24 10:29:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>fc658ebddbd1841058537de03c96198e</sys_id>
+        <sys_metadata>fc658ebddbd1841058537de03c96198e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>action</sys_name>
+        <sys_package display_value="TextLocal" source="x_277835_textlocal">c8bcdf7bdbc9c0d058537de03c9619bb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="TextLocal">c8bcdf7bdbc9c0d058537de03c9619bb</sys_scope>
+        <sys_scope_delete display_value="">0f2c38aff442454c829f0a19875f3390</sys_scope_delete>
+        <sys_update_name>sys_choice_x_277835_textlocal_textlocal_sms_action</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_277835_textlocal_textlocal_sms_action">84558abddbd1841058537de03c961956</sys_update_version>
+        <sys_updated_by>abhrajyoti.kanrar</sys_updated_by>
+        <sys_updated_on>2019-11-24 10:29:12</sys_updated_on>
+    </sys_metadata_delete>
 </record_update>
