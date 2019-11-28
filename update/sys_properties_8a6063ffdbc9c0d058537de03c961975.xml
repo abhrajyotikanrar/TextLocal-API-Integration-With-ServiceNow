@@ -2,7 +2,7 @@
     <sys_properties action="INSERT_OR_UPDATE">
         <choices/>
         <description>SMS Sender name for TextLocal &#13;
-URL: https://www.textlocal.in/</description>
+(URL: https://www.textlocal.in/)</description>
         <ignore_cache>false</ignore_cache>
         <is_private>false</is_private>
         <name>x_277835_textlocal.api.sender</name>
@@ -12,14 +12,14 @@ URL: https://www.textlocal.in/</description>
         <sys_created_by>abhrajyoti.kanrar</sys_created_by>
         <sys_created_on>2019-11-18 11:59:44</sys_created_on>
         <sys_id>8a6063ffdbc9c0d058537de03c961975</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>x_277835_textlocal.api.sender</sys_name>
         <sys_package display_value="TextLocal" source="x_277835_textlocal">c8bcdf7bdbc9c0d058537de03c9619bb</sys_package>
         <sys_policy/>
         <sys_scope display_value="TextLocal">c8bcdf7bdbc9c0d058537de03c9619bb</sys_scope>
         <sys_update_name>sys_properties_8a6063ffdbc9c0d058537de03c961975</sys_update_name>
         <sys_updated_by>abhrajyoti.kanrar</sys_updated_by>
-        <sys_updated_on>2019-11-18 14:10:40</sys_updated_on>
+        <sys_updated_on>2019-11-28 09:41:03</sys_updated_on>
         <type>string</type>
         <value>TXTLCL</value>
         <write_roles>x_277835_textlocal.textlocal_admin</write_roles>

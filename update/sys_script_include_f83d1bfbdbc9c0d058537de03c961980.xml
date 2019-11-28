@@ -136,81 +136,6 @@ TextLocalAPI.prototype = {
 			gs.info(errMessage);
 		}
 	},
-	
-	getLastThirtyDaysOutboxSmsCount : function(){
-		var grTxtLclSms = new GlideAggregate('x_277835_textlocal_textlocal_sms');
-		grTxtLclSms.addEncodedQuery('sys_created_onONLast 30 days@javascript:gs.beginningOfLast30Days()@javascript:gs.endOfLast30Days()');
-		grTxtLclSms.addQuery('action', 'outbox');
-		grTxtLclSms.addAggregate('COUNT');
-		grTxtLclSms.query();
-		if(grTxtLclSms.next())
-			return grTxtLclSms.getAggregate('COUNT');
-		else
-			return 0;
-		
-	},
-	
-	get30DaysChartData : function(){
-		var count = {};
-		count.blockedUnblockedCount = this.getLastThirtyDaysBlockedUnblockedCount();
-		count.successFailureCount = this.getLastThirtyDaysSuccessFailureCount();
-		
-		return JSON.stringify(count);
-	},
-	
-	getLastThirtyDaysBlockedUnblockedCount : function(){
-		var count = {};
-		
-		var grTransactionsBlocked = new GlideAggregate('x_277835_textlocal_sms_transactions');
-		grTransactionsBlocked.addEncodedQuery('sys_created_onONLast 30 days@javascript:gs.beginningOfLast30Days()@javascript:gs.endOfLast30Days()');
-		grTransactionsBlocked.addQuery('blocked', true);
-		grTransactionsBlocked.addAggregate('COUNT');
-		grTransactionsBlocked.query();
-		if(grTransactionsBlocked.next())
-			count.blockedCount = grTransactionsBlocked.getAggregate('COUNT');
-		else
-			count.blockedCount = 0;
-		
-		var grTransactionsUnblocked = new GlideAggregate('x_277835_textlocal_sms_transactions');
-		grTransactionsUnblocked.addEncodedQuery('sys_created_onONLast 30 days@javascript:gs.beginningOfLast30Days()@javascript:gs.endOfLast30Days()');
-		grTransactionsUnblocked.addQuery('blocked', false);
-		grTransactionsUnblocked.addAggregate('COUNT');
-		grTransactionsUnblocked.query();
-		if(grTransactionsUnblocked.next())
-			count.unblockedCount = grTransactionsUnblocked.getAggregate('COUNT');
-		else
-			count.unblockedCount = 0;
-		
-		return count;
-	},
-	
-	getLastThirtyDaysSuccessFailureCount : function(){
-		var count = {};
-		
-		var grTransactionsSuccess = new GlideAggregate('x_277835_textlocal_sms_transactions');
-		grTransactionsSuccess.addEncodedQuery('sys_created_onONLast 30 days@javascript:gs.beginningOfLast30Days()@javascript:gs.endOfLast30Days()');
-		grTransactionsSuccess.addQuery('blocked', false);
-		grTransactionsSuccess.addQuery('status', 'success');
-		grTransactionsSuccess.addAggregate('COUNT');
-		grTransactionsSuccess.query();
-		if(grTransactionsSuccess.next())
-			count.successCount = grTransactionsSuccess.getAggregate('COUNT');
-		else
-			count.successCount = 0;
-		
-		var grTransactionsFailure = new GlideAggregate('x_277835_textlocal_sms_transactions');
-		grTransactionsFailure.addEncodedQuery('sys_created_onONLast 30 days@javascript:gs.beginningOfLast30Days()@javascript:gs.endOfLast30Days()');
-		grTransactionsFailure.addQuery('blocked', false);
-		grTransactionsFailure.addQuery('status', 'failure');
-		grTransactionsFailure.addAggregate('COUNT');
-		grTransactionsFailure.query();
-		if(grTransactionsFailure.next())
-			count.failureCount = grTransactionsFailure.getAggregate('COUNT');
-		else
-			count.failureCount = 0;
-		
-		return count;
-	},
 
     type: 'TextLocalAPI'
 };]]></script>
@@ -218,13 +143,13 @@ TextLocalAPI.prototype = {
         <sys_created_by>abhrajyoti.kanrar</sys_created_by>
         <sys_created_on>2019-11-18 12:00:31</sys_created_on>
         <sys_id>f83d1bfbdbc9c0d058537de03c961980</sys_id>
-        <sys_mod_count>37</sys_mod_count>
+        <sys_mod_count>38</sys_mod_count>
         <sys_name>TextLocalAPI</sys_name>
         <sys_package display_value="TextLocal" source="x_277835_textlocal">c8bcdf7bdbc9c0d058537de03c9619bb</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="TextLocal">c8bcdf7bdbc9c0d058537de03c9619bb</sys_scope>
         <sys_update_name>sys_script_include_f83d1bfbdbc9c0d058537de03c961980</sys_update_name>
         <sys_updated_by>abhrajyoti.kanrar</sys_updated_by>
-        <sys_updated_on>2019-11-22 11:43:16</sys_updated_on>
+        <sys_updated_on>2019-11-28 15:58:55</sys_updated_on>
     </sys_script_include>
 </record_update>
