@@ -16,7 +16,7 @@
         <name/>
         <order>160</order>
         <override_menu_roles>false</override_menu_roles>
-        <query>system_properties_ui.do?sysparm_category=TextLocal%20Properties&amp;sysparm_domain_restore=false&amp;sysparm_stack=no</query>
+        <query>system_properties_ui.do?sysparm_category=TextLocal%20Properties&amp;sysparm_title=TextLocal%20Properties</query>
         <report/>
         <roles/>
         <sys_class_name>sys_app_module</sys_class_name>
@@ -25,7 +25,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0018c8c0dbddc0d058537de03c9619fa</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Properties</sys_name>
         <sys_overrides/>
         <sys_package display_value="TextLocal" source="x_277835_textlocal">c8bcdf7bdbc9c0d058537de03c9619bb</sys_package>
@@ -33,7 +33,7 @@
         <sys_scope display_value="TextLocal">c8bcdf7bdbc9c0d058537de03c9619bb</sys_scope>
         <sys_update_name>sys_app_module_0018c8c0dbddc0d058537de03c9619fa</sys_update_name>
         <sys_updated_by>abhrajyoti.kanrar</sys_updated_by>
-        <sys_updated_on>2019-11-28 15:51:48</sys_updated_on>
+        <sys_updated_on>2019-12-10 12:48:54</sys_updated_on>
         <timeline_page/>
         <title>Properties</title>
         <uncancelable>false</uncancelable>
