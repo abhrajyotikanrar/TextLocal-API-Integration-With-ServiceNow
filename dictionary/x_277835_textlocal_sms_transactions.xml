@@ -9,10 +9,7 @@
         <element label="Sender Name" max_length="10" name="sender_name" type="string"/>
         <element label="Sent SMS" max_length="32" name="sent_sms" reference="x_277835_textlocal_textlocal_sms" type="reference"/>
         <element choice="1" label="Status" max_length="40" name="status" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Failure" value="failure"/>
-                <element inactive_on_update="false" label="Success" value="success"/>
-            </choice>
+            <choice/>
         </element>
         <index name="index">
             <element name="sent_sms"/>

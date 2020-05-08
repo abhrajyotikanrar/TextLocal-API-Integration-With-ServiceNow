@@ -4,22 +4,22 @@
         <license_condition/>
         <license_model>none</license_model>
         <license_roles/>
-        <name>x_277835_textlocal_sms_transactions</name>
+        <name>x_277835_textlocal_textlocal_sms</name>
         <op_delete>true</op_delete>
         <op_insert>true</op_insert>
         <op_update>true</op_update>
         <owner_condition/>
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>abhrajyoti.kanrar</sys_created_by>
-        <sys_created_on>2019-11-18 13:22:04</sys_created_on>
-        <sys_id>28658ebddbd1841058537de03c961955</sys_id>
+        <sys_created_on>2019-11-18 12:26:13</sys_created_on>
+        <sys_id>5692d0932f609810ff24b8e72799b615</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_277835_textlocal_sms_transactions</sys_name>
+        <sys_name>x_277835_textlocal_textlocal_sms</sys_name>
         <sys_package display_value="TextLocal" source="x_277835_textlocal">c8bcdf7bdbc9c0d058537de03c9619bb</sys_package>
         <sys_policy/>
         <sys_scope display_value="TextLocal">c8bcdf7bdbc9c0d058537de03c9619bb</sys_scope>
-        <sys_update_name>ua_table_licensing_config_28658ebddbd1841058537de03c961955</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_5692d0932f609810ff24b8e72799b615</sys_update_name>
         <sys_updated_by>abhrajyoti.kanrar</sys_updated_by>
-        <sys_updated_on>2019-11-18 13:22:04</sys_updated_on>
+        <sys_updated_on>2019-11-18 12:26:13</sys_updated_on>
     </ua_table_licensing_config>
 </record_update>
