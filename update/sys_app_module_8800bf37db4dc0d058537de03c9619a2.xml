@@ -5,7 +5,7 @@
         <assessment/>
         <content_page/>
         <device_type/>
-        <filter table="x_277835_textlocal_textlocal_sms">action=outbox^EQ<item display_value="outbox" endquery="false" field="action" goto="false" newquery="false" operator="=" or="false" value="outbox"/>
+        <filter table="x_277835_textlocal_textlocal_sms">action=outbox^EQ<item display_value="Outbox" endquery="false" field="action" goto="false" newquery="false" operator="=" or="false" value="outbox"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>
         <hint/>

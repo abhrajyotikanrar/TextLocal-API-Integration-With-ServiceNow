@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="action" table="x_277835_textlocal_textlocal_sms" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>action</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Inbox</label>
+            <language>en</language>
+            <name>x_277835_textlocal_textlocal_sms</name>
+            <sequence/>
+            <sys_created_by>abhrajyoti.kanrar</sys_created_by>
+            <sys_created_on>2020-08-04 14:26:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>618f7ea72f92901056e7e83df699b609</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>abhrajyoti.kanrar</sys_updated_by>
+            <sys_updated_on>2020-08-04 14:26:40</sys_updated_on>
+            <value>Inbox</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>action</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Outbox</label>
+            <language>en</language>
+            <name>x_277835_textlocal_textlocal_sms</name>
+            <sequence/>
+            <sys_created_by>abhrajyoti.kanrar</sys_created_by>
+            <sys_created_on>2020-08-04 14:26:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>667f762b2f92901056e7e83df699b65b</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>abhrajyoti.kanrar</sys_updated_by>
+            <sys_updated_on>2020-08-04 14:26:29</sys_updated_on>
+            <value>outbox</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>action</element>
+            <name>x_277835_textlocal_textlocal_sms</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>abhrajyoti.kanrar</sys_created_by>
+            <sys_created_on>2020-08-04 14:26:24</sys_created_on>
+            <sys_id>ed8fb6ef2f92901056e7e83df699b61d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>action</sys_name>
+            <sys_package display_value="TextLocal" source="x_277835_textlocal">c8bcdf7bdbc9c0d058537de03c9619bb</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="TextLocal">c8bcdf7bdbc9c0d058537de03c9619bb</sys_scope>
+            <sys_update_name>sys_choice_x_277835_textlocal_textlocal_sms_action</sys_update_name>
+            <sys_updated_by>abhrajyoti.kanrar</sys_updated_by>
+            <sys_updated_on>2020-08-04 14:26:24</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

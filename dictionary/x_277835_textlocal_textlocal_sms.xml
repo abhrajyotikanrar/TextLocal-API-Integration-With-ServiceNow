@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="TextLocal SMS" max_length="40" name="x_277835_textlocal_textlocal_sms" type="collection">
+    <element label="TextLocal SMS" max_length="40" name="x_277835_textlocal_textlocal_sms" sizeclass="2" type="collection">
         <element choice="1" label="Action" max_length="40" name="action" type="choice">
-            <choice/>
+            <choice>
+                <element inactive_on_update="false" label="Inbox" value="Inbox"/>
+                <element inactive_on_update="false" label="Outbox" value="outbox"/>
+            </choice>
         </element>
         <element label="Message" max_length="500" name="message" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
